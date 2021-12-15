@@ -38,7 +38,7 @@ class WelcomeScreen extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  text: 'Wiz',
+                  text: 'Smart',
                   style: GoogleFonts.portLligatSans(
                     textStyle: Theme.of(context).textTheme.headline1,
                     fontSize: 30,
@@ -47,7 +47,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   children: [
                     TextSpan(
-                      text: 'pna',
+                      text: 'Infant',
                       style: TextStyle(color: Colors.black, fontSize: 30),
                     ),
                   ],

@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                         text: TextSpan(
                           children: <TextSpan>[
                             TextSpan(
-                              text: "Assessment Dashboard\n",
+                              text: "Smart Infant Tracking\n",
                               style: TextStyle(
                                 fontSize: 30,
                                 fontWeight: FontWeight.w700,
@@ -53,14 +53,14 @@ class HomeScreen extends StatelessWidget {
                                 fontFamily: "Poppins",
                               ),
                             ),
-                            TextSpan(
-                                text: "for job offer",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w700,
-                                  color: Colors.white,
-                                  fontFamily: "Poppins",
-                                )),
+                            // TextSpan(
+                            //     text: "for job offer",
+                            //     style: TextStyle(
+                            //       fontSize: 16,
+                            //       fontWeight: FontWeight.w700,
+                            //       color: Colors.white,
+                            //       fontFamily: "Poppins",
+                            //     )),
                           ],
                         ),
                       ),
@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),
                     child: Text(
-                      "A platform for ordinary people with ideas that can can the world. Meet people, join groups, chat online and be a part of creating next big thing.",
+                      "Pocket size device which alarms the parents for babies' vaccination and check-up dates and handles babies' complete medical records online",
                       style: TextStyle(fontSize: 15, color: Color(0xFF166FFF)),
                       textAlign: TextAlign.center,
                     ),

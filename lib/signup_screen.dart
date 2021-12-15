@@ -57,7 +57,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     RichText(
                       textAlign: TextAlign.center,
                       text: TextSpan(
-                        text: 'Wiz',
+                        text: 'Smart',
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.w700,
@@ -65,7 +65,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                         children: [
                           TextSpan(
-                            text: 'pna',
+                            text: 'Infant',
                             style: TextStyle(color: Colors.black, fontSize: 30),
                           ),
                         ],

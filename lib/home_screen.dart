@@ -1,12 +1,35 @@
+
+import 'package:assessment_task/scan_qr_screen.dart';
 import 'package:assessment_task/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+
+class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ScanScreen()),
+                );
+              },
+              icon: const Icon(Icons.add_a_photo)),
+          IconButton(onPressed: (){}, icon: const Icon(Icons.bluetooth),)
+        ],
+      ),
       body: Column(
         children: [
           Expanded(
